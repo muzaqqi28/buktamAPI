@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 11, 2020 at 11:15 AM
+-- Generation Time: Sep 11, 2020 at 12:01 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.9
 
@@ -74,9 +74,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`, `level`, `nama`) VALUES
-(123, 'depri@gmail.com', '123', 'karyawan', 'Depri'),
-(456, 'hasan@gmail.com', '456', 'resepsionis', 'Hasan Rosidi'),
-(789, 'ahmad@gmail.com', '789', 'karyawan', 'Ahmad Muzaqqi');
+(11111, 'depri@gmail.com', '11111', 'karyawan', 'Depri'),
+(11112, 'zaqqi@gmail.com', '11112', 'karyawan', 'Muzaqqi'),
+(11113, 'ahmad@gmail.com', '11113', 'resepsionis', 'Ahmad Muzaqqi'),
+(11114, 'hasan@gmail.com', '11114', 'karyawan', 'Hasan Rosidi'),
+(11115, 'jat@gmail.com', '11115', 'karyawan', 'Jatmiko'),
+(11116, 'tian@gmail.com', '11116', 'karyawan', 'Tian Rizky'),
+(11117, 'dian@gmail.com', '11117', 'karyawan', 'Dian Fitri');
 
 --
 -- Indexes for dumped tables
@@ -108,7 +112,7 @@ ALTER TABLE `todo`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(111) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=790;
+  MODIFY `id` int(111) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11118;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
