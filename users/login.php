@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     } else{
     
             $response['value'] = 0;
-            $response['message'] = "login gagal";
+            $response['message'] = "Login Gagal";
             echo json_encode($response);
         }
     }

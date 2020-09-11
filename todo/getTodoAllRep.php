@@ -12,21 +12,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 		$dataResult[]=$fecthData;
 	}
 	echo json_encode($dataResult);
- 
-// if ($result->num_rows >=0) {
- 
-// 	 while($row[] = $result->fetch_assoc()) {
-	 
-// 	 $item = $row;
-	 
-// 	 $json = json_encode($item, JSON_NUMERIC_CHECK);
-	 
-//  }
- 
-// } else {
-// 	$connect->close();
-// }
-// echo $json;
 }
 $connect->close();
 ?>
